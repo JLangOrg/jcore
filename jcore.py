@@ -5,3 +5,6 @@ def store(input):
     store[parts[0]] = parts[2]
   with open("store.json", "w") as storefile:
     storefile.write(store)
+    
+def log(input):
+  print(input)
